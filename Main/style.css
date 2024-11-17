@@ -4,6 +4,11 @@ html, body{
     position: relative;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 /* Navbar*/
 
 .navbar{
@@ -50,12 +55,10 @@ html, body{
 /* Main Home Page*/
 
 .main-page-flexbox{
-    
-    padding: 50px;
-    margin-top: 15%;
+    width: 75%;
+    padding-left: 200px;
+    margin-top: 10%;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .main-page-grid{
@@ -67,6 +70,7 @@ html, body{
 .container{
     display: grid;
     grid-template-rows: 1fr .1fr;
+    grid-template-columns: .1fr;
     gap: 10px;
 }
 
@@ -79,7 +83,6 @@ html, body{
 
 .main-page-link{
     justify-self: center;
-    margin-right: 70px;
 }
 
 .main-page-bio{
@@ -94,16 +97,21 @@ html, body{
 /* Footer */
 
 .flex-footer-container{
+    padding-left: 50px;
     display: flex;
+    gap: 30px;
+    justify-content: left;
+    margin-top: 100px;
 }
 
 .flex-footer-container img{
     width: 50px;
-    height: 50px;
-    
+    height: 50px;  
+    vertical-align: middle;
 }
 
-.flex-footer-container a{  
-    text-decoration: none; 
+.flex-footer-container a{
+    margin-left: 5px;
 }
+
 
