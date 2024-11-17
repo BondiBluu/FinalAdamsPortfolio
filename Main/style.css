@@ -47,6 +47,13 @@
     
     padding: 50px;
     margin-top: 10%;
+    display: flex;
+}
+
+.main-page-flexbox img {
+    background-color: #fa8eb0;
+    width:450px;
+    height: 500px;
 }
 
 /* Footer */
