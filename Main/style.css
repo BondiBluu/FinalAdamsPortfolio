@@ -40,7 +40,7 @@ a{
 }
 
 .navbar-buttons a{
-    text-decoration: none;
+    text-decoration: underline;
     text-align: center;
     color: black;
     background-color: white;
@@ -84,6 +84,7 @@ a{
 
 .main-page-link{
     justify-self: center;
+    text-decoration: underline;
 }
 
 .main-page-bio{
@@ -117,18 +118,35 @@ a{
 
 /* Animation Page*/
 
-.anim-page-grid{
-   display: grid;
-   grid-template-columns: repeat(4, 1fr);
-   grid-template-rows: 1fr .1fr 1fr .1fr;
-   margin-top: 10%;
+.anim-first-grid{
+    display: grid;
+    grid-template-columns: repeat(500px);
+    grid-template-rows: 500px 50px;
+    gap: 20px;
+    margin-top: 10%;
 }
 
 .anim-demo-reel{
     width: 800px;
     height: 500px;
     grid-column: 2 / span 2;
+    margin-left: 200px;
 }
+
+.anim-first-grid-heading{
+    grid-row: 2;
+    grid-column: 2 / span 2;
+    text-align: center;
+    margin-right: 15%;}
+
+.anim-page-grid{
+   display: grid;
+   grid-template-columns: 800px;
+   grid-template-rows: 1fr .1fr 1fr .1fr;
+   margin-top: 50px;
+}
+
+
 
 .anim-demo-text{
     grid-row: 2;
