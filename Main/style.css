@@ -213,3 +213,28 @@ a{
     text-align: left;
     margin-left: 100px;
 }
+
+/* 3D Page */
+
+.threeD-page-container{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.threeD-first-video{
+    height: 600px;
+    width: 1200px;
+}
+
+.threeD-first-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.threeD-content-text{
+    text-align: center;
+}
