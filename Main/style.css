@@ -223,6 +223,10 @@ a{
     justify-content: center;
 }
 
+.threeD-page-grid-container{
+    margin-bottom: 20px;
+}
+
 .threeD-first-video{
     height: 600px;
     width: 1200px;
@@ -230,9 +234,19 @@ a{
 
 .threeD-first-grid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 450px);
+}
+
+.threeD-first-grid-photos{
+    width: 450px;
+    height: 300px;
+    margin-left: 90px;
+}
+
+.threeD-second-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-    margin-bottom: 20px;
 }
 
 .threeD-content-text{
