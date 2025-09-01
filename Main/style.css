@@ -287,6 +287,8 @@ a{
     grid-row: 1;
     height: 500px;
     width: 350px;
+    
+    margin-left: 10%;
 }
 
 .rig-video-text{
@@ -296,6 +298,7 @@ a{
 .pngtuber-showcase-text{
     grid-column: 4;
     grid-row: 2;
+    margin-left: 10%;
 }
 
 .vtuber-second-grid{
@@ -370,4 +373,65 @@ a{
 
 .vtuber-content-text{
     text-align: center;
+}
+
+.vtuber-fourth-grid{
+    display: grid;
+    grid-template-columns: .1fr 1fr .5fr 1fr .1fr;
+    grid-template-rows: 1fr .1fr;
+}
+
+.hevy-pic{
+    grid-column: 2;
+    grid-row: 1;
+    width: 500px;
+    height: 500px;
+}
+
+.hevy-pic-text{
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    margin-right: 25%;
+}
+
+.lily-fugitech-grid{
+    grid-column: 3;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-self: end;
+}
+
+.lily-fugitech-text{
+    grid-row: 2;
+    grid-column: 3;
+    text-align: center;
+}
+
+.lily-fugitech-active-pic{
+    grid-row: 2;
+    width: 300px;
+    height: 250px;
+}
+
+.lily-fugitech-inactive-pic{
+    grid-row: 1;
+    width: 300px;
+    height: 250px;
+}
+
+.lily-streamer-pic{
+    grid-column: 4;
+    grid-row: 1;
+    width: 500px;
+    height: 500px;
+    justify-self: end;
+}
+
+.lily-streamer-text{
+    grid-row: 2;
+    grid-column: 4;
+    text-align: center;
+    margin-left: 25%;
 }
