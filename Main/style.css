@@ -448,7 +448,38 @@ content-text{
     grid-template-columns: .1fr 1fr 1fr 1fr .1fr;
     grid-template-rows: 1fr;
     margin-top: 10%;
+    gap: 100px;
 }
+
+    .cards-grid{
+        grid-row: 1;
+        grid-column: 2;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+        gap: 100px;
+    }
+
+    .illust-first-grid-inner{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+        .mail-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 20px;
+        }
+
+        .lanterns-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 50px;
+        }
+
 
 .illust-second-grid{
     display: grid;
@@ -456,11 +487,16 @@ content-text{
     grid-template-rows: 1fr 1fr;
     gap: 5%;
 }
+    
+
 .illust-third-grid{
     display: grid;
     grid-template-columns: .01fr 1fr 1fr 1fr .01fr;
     grid-template-rows: 1fr .1fr;
 }
+
+
+
 .illust-fourth-and-fifth-grid{
     display: grid;
     grid-template-columns: .5fr 1fr 1fr .5fr;
