@@ -432,3 +432,43 @@ a{
     grid-column: 4;
     margin-left: 25%;
 }
+
+/* Illustration Page */
+
+.illust-grid-container{
+    margin-top: 5%;
+}
+
+content-text{
+    text-align: center;
+}
+
+.illust-first-grid{
+    display: grid;
+    grid-template-columns: .1fr 1fr 1fr 1fr .1fr;
+    grid-template-rows: 1fr;
+    margin-top: 10%;
+}
+
+.illust-second-grid{
+    display: grid;
+    grid-template-columns: .01fr 1fr 1fr 1fr .01fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5%;
+}
+.illust-third-grid{
+    display: grid;
+    grid-template-columns: .01fr 1fr 1fr 1fr .01fr;
+    grid-template-rows: 1fr .1fr;
+}
+.illust-fourth-and-fifth-grid{
+    display: grid;
+    grid-template-columns: .5fr 1fr 1fr .5fr;
+    grid-template-rows: 1fr .1fr;
+}
+
+.illust-sixth-grid{
+    display: grid;
+    grid-template-columns: .4fr 1fr 1fr .4fr;
+    grid-template-rows: 1fr .1fr;
+}
