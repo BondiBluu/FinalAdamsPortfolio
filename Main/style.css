@@ -391,7 +391,6 @@ a{
 .hevy-pic-text{
     grid-column: 2;
     grid-row: 2;
-    text-align: center;
     margin-right: 25%;
 }
 
@@ -406,7 +405,6 @@ a{
 .lily-fugitech-text{
     grid-row: 2;
     grid-column: 3;
-    text-align: center;
 }
 
 .lily-fugitech-active-pic{
@@ -432,6 +430,5 @@ a{
 .lily-streamer-text{
     grid-row: 2;
     grid-column: 4;
-    text-align: center;
     margin-left: 25%;
 }
