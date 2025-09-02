@@ -459,6 +459,11 @@ content-text{
         grid-template-columns: 1fr;
         gap: 100px;
     }
+        .card-size{
+            width: 300px;
+            height: 400px;
+        }
+
 
     .illust-first-grid-inner{
         display: grid;
@@ -473,6 +478,11 @@ content-text{
             gap: 20px;
         }
 
+            .mail-pic-size{
+                width: 100px;
+                height: 100px;
+            }
+
         .lanterns-grid{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -480,6 +490,10 @@ content-text{
             gap: 50px;
         }
 
+            .lantern-pic-size{
+                width: 100px;
+                height: 100px;
+            }
 
 .illust-second-grid{
     display: grid;
