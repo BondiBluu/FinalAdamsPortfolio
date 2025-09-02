@@ -644,11 +644,51 @@ a{
             margin-left: 150px;
         }
 
+    .rasp-ink-pic{
+        grid-row: 1;
+        grid-column: 2;
+        width: 400px;
+        height: 500px;
+    }
+
+        .rasp-ink-pic-text{
+            grid-row: 2;
+            grid-column: 2;
+        }
+
     .crabs-grid{
+        grid-row: 1;
+        grid-column: 3;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
     }
+
+        .crabs-grid-pics{
+            width: 350px;
+            height: 300px;
+        }
+
+        .crab-pic-one{
+            grid-row: 1;
+            grid-column: 1;
+        }
+
+        .crab-pic-two{
+            grid-row: 1;
+            grid-column: 2;
+        }
+
+        .crab-pic-three{
+            grid-row: 2;
+            grid-column: 1 / span 2;
+            justify-self: center;
+        }
+
+        .crabs-grid-text{
+            grid-row: 2;
+            grid-column: 3;
+        }
 
 .illust-sixth-grid{
     display: grid;
