@@ -445,42 +445,45 @@ content-text{
 
 .illust-first-grid{
     display: grid;
-    grid-template-columns: .1fr 1fr 1fr 1fr .1fr;
+    grid-template-columns: .01fr 1fr 1fr 1fr .1fr;
     grid-template-rows: 1fr;
     margin-top: 10%;
-    gap: 100px;
 }
 
     .cards-grid{
         grid-row: 1;
         grid-column: 2;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-columns: 1fr;
-        gap: 100px;
+        grid-template-columns: 240px 240px;
+        grid-template-rows: 400px;
+        margin-right: 100px; 
+        margin-top: 40px;  
     }
+
         .card-size{
-            width: 300px;
+            width: 400px;
             height: 400px;
         }
 
 
     .illust-first-grid-inner{
+        grid-column: 3;
+        grid-row: 1;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
+        justify-self: center;
     }
 
         .mail-grid{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 1fr;
-            gap: 20px;
         }
 
             .mail-pic-size{
-                width: 100px;
-                height: 100px;
+                width: 200px;
+                height: 200px;
             }
 
         .lanterns-grid{
