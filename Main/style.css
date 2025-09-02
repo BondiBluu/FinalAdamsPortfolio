@@ -466,13 +466,16 @@ content-text{
         }
 
 
-    .illust-first-grid-inner{
+    .third-column{
         grid-column: 3;
         grid-row: 1;
+        justify-self: center;
+
+    }
+    .illust-first-grid-inner{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        justify-self: center;
     }
 
         .mail-grid{
@@ -490,13 +493,31 @@ content-text{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-template-rows: 1fr;
-            gap: 50px;
         }
 
             .lantern-pic-size{
-                width: 100px;
-                height: 100px;
+                width: 200px;
+                height: 200px;
+                margin-left: -30px;
             }
+    
+    .fourth-column{
+        grid-column: 4;
+        grid-row: 1;
+        margin-left: 20px;
+    }
+
+        .UI-pic{
+            width: 250px;
+            height: 95px;
+            margin-top: 70px;
+        }
+
+        .fortune-teller-pic{
+            width: 250px;
+            height: 230px;
+            margin-top: -40px;
+        }
 
 .illust-second-grid{
     display: grid;
