@@ -615,6 +615,35 @@ a{
     grid-template-rows: 1fr .1fr;
 }
 
+    .digital-painting-material{
+        grid-row: 1;
+        grid-column: 2;
+        height: 700px;
+        width: 500px;
+        justify-self: start;
+
+    }
+
+        .digital-painting-material-text{
+            grid-row: 2;
+            grid-column: 2;
+        }
+
+    .digital-painting-still-life{
+        grid-row: 1;
+        grid-column: 3;
+        height: 700px;
+        width: 850px;
+        margin-left: 150px;
+
+    }
+
+        .digital-painting-still-life-text{
+            grid-row: 2;
+            grid-column: 3;
+            margin-left: 150px;
+        }
+
     .crabs-grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
