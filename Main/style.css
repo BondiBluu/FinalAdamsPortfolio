@@ -521,6 +521,10 @@ a{
             margin-top: -40px;
         }
 
+            .fortune-teller-text{
+                margin-left: 100px;
+            }
+
 .illust-second-grid{
     display: grid;
     grid-template-columns: .01fr 1fr 1fr 1fr .01fr;
