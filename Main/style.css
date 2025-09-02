@@ -439,7 +439,7 @@ a{
     margin-top: 5%;
 }
 
-content-text{
+.content-text{
     text-align: center;
 }
 
@@ -523,9 +523,44 @@ content-text{
     display: grid;
     grid-template-columns: .01fr 1fr 1fr 1fr .01fr;
     grid-template-rows: 1fr 1fr;
-    gap: 5%;
+    gap: 15px;
 }
+
+    .bg-pics-size{
+        width: 550px;
+        height: 300px;
+        justify-self: center;
+    }
+
+    .bg-pic-one{
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .bg-pic-two{
+        grid-row: 1;
+        grid-column: 3;
+    }
     
+    .bg-pic-three{
+        grid-row: 1;
+        grid-column: 4;
+    }
+
+    .bg-pic-four{
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .bg-pic-five{
+        grid-row: 2;
+        grid-column: 3;
+    }
+
+    .bg-pic-six{
+        grid-row: 2;
+        grid-column: 4;
+    }
 
 .illust-third-grid{
     display: grid;
